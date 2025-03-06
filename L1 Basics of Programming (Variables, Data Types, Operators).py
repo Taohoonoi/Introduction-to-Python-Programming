@@ -6,6 +6,7 @@ multiline comments
 
 # Variables
 x = 5
+m = 6
 y = "Name"
 
 # Data Types
