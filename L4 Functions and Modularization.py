@@ -39,8 +39,7 @@ def isPrime(n: int) -> bool:
     for i in range(2, n):
         if n % i == 0: # n divides i and remainder is 0 therefore n is not prime
             return False
-        else:
-            return True
+    return True
 
 # main function
 if __name__ == "__main__": # main function  is the entry point of the program
@@ -55,4 +54,4 @@ if __name__ == "__main__": # main function  is the entry point of the program
 
     # print(twoSum([2, 7, 11, 15], 18)) # [0, 1] 2 + 7 = 9
 
-    print(isPrime(12345678901234567)) # True
+    print(isPrime(123)) # True

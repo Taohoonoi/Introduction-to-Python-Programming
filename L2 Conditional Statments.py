@@ -23,4 +23,4 @@ match x:
     case "Johnny":
         x = "John"
     case _:
-        print("invalid number")
+        print("invalid value")

@@ -64,8 +64,8 @@ y = x
 z: bool = (x is y)  # True
 
 # Membership Operators
-x = ["apple", "banana"]
-z: bool = ("apple" in x)  # True
+basket = ["apple", "banana"]
+z: bool = ("apple" in basket)  # True
 
 # Bitwise Operators
 x = 5 # to binary 101
